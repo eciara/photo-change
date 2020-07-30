@@ -12,14 +12,7 @@ function getRandomNum() {
 }
 
 btn.addEventListener('click', function(){
-    // console.log('test');
     var counter =  getRandomNum();
-    /*counter ++;
-    if (counter > imagesArray.length -1){
-        counter = 0;
-    }*/
    image.innerHTML = `<img src="${imagesArray[counter]}">`;
-    console.log(counter);
-    console.log(imagesArray[counter]);
 }, false);
 
